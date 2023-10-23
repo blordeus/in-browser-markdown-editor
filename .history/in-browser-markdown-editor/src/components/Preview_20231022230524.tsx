@@ -8,7 +8,8 @@ export const Preview = ({markdown}: PreviewProps) => {
   return (
     <div>
         <div className="w-full bg-gray-900 p-3 uppercase text-gray-300 tracking-wider ">Preview</div>
-        <div className='prose prose-invert p-6' dangerouslySetInnerHTML={{ __html: parsed}}></div>
+        <div dangerouslySetInnerHTML={{}}></div>
+        <div>{parsed}</div>
     </div>
   )
 }
